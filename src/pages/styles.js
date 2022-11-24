@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 100%;
-    margin: 20px 0;
+    height: 100vh;
+    margin: 20px 0 0 0;
     display: flex;
-    align-items: flex-start;
-    justify-content: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
